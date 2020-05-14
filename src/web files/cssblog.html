@@ -62,11 +62,28 @@
     <div class="container">
         <img src="https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid" alt="Responsive image">
         <h5 class="display-4">CSS</h5>
-        <p class="lead">Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double. <br>
-            Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.</p>
+        <p class="lead">CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
         <hr class="my-4">
     </div>
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <h3>Why use CSS?</h3>
+    <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+    <br><br>
+    <p>CSS stands for “Cascading Style Sheets“. CSS determines how your page looks, both in terms of font type, color, size, and even where certain elements sit on your page. It defines the size of the header, body, footer, and really so much more than that. For the purpose of this post, we’ll focus primarily on simple CSS basics for a beautiful blog and save the more advanced topics for later lessons</p>
+    <h3>How to link to your CSS file</h3>
+        <ol>
+            <li>Create an HTML File named index.html </li>
+            <li>Create a head and body tag</li>
+            <li>Create a CSS File  named styles.css</li>
+            <li>Go to your HTLM Head tag</li>
+            <li>Enter < link rel="stylesheet" type="text/css" href="style.css"></li>
+        </ol>
+<p>The “link” part of this tag is just telling the HTML document that you’re calling another file in to be displayed on the page. The “rel” tells the document exactly what you’re calling, which in this case is stylesheet. The type is just another reference to this, but also lets the browser know it doesn’t have to do anything extra special to process the code. It doesn’t have to compile like PHP code (a more involved process) – it can just be read as-is. The “href” is the source of the file and should correspond to wherever the CSS code is housed. Usually this is in it’s own specific folder, so the file path might instead read “css/style.css.”</p>
+
+
+
+
+
+
     <!--    Header next/previous buttons-->
     <nav aria-label="Page navigation example">
         <ul class="pagination">

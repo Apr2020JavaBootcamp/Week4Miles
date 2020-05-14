@@ -43,3 +43,8 @@ body{
     align-content: center;
     align-items: center;
 }
+
+.blog-images {
+    height: 400px;
+    width: 400px;
+}
