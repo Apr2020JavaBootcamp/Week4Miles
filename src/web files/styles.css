@@ -54,6 +54,12 @@ body{
 .img-fluid{
     max-width: 100%;
     object-fit: cover;
+}
 
-
+.card-img{
+    height: 500px;
+    width: 100%;
+}
+.profile-jumbletron {
+    background-color: black;
 }
