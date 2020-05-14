@@ -1,0 +1,25 @@
+.navbar {
+    background-color: black !important;
+}
+.navbar-brand {
+    color: darkgoldenrod !important;
+}
+
+.navbar-toggler {
+    color: darkgoldenrod !important;
+}
+
+.nav-item {
+    color: darkgoldenrod !important;
+}
+.btn {
+    color: darkgoldenrod !important;
+    border-color: darkgoldenrod !important;
+}
+.btn-outline-success {
+    color: darkgoldenrod !important;
+
+}
+body{
+    background-color: black;
+}
